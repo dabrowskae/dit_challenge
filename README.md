@@ -18,21 +18,27 @@ Na stronie głównej znajdują się okna z ilością graczy, meczy, raportów or
 Wybór tylko dwóch języków- dodałabym więcej.
 Ogólny wygląd aplikacji moim zdaniem to 4/10, wielkość okien niedopasowana do ilości treści na stronie. Mało zakładek do wyboru, należy wejść w jedną z zakładek aby odkryły się kolejne. Bardzo prosty wygląd. Plus za jednakową odległość między boxami.
 Strona jest średnio intuicyjna, nie wszystkie pola do wypełnienia są zrozumiałe, brak legendy lub chociaż dymków z podpowiedzią co należy wpisać w dane pole. 
+
 - brak możliwości przeniesienia się do strony głównej przez naciśnięcie ikony SCOUTS PANEL
-*ZAKŁADKA GRACZE*
+
+**ZAKŁADKA GRACZE**
 - strona "rozjeżdża się" w poprzek strona 31-40 of 715
 - wielokrotne występowanie tych samych osób w tabeli z tym samym wiekiem oraz pozycją
 - w filtrach do wyszukiwania na stronie w języku polskim część napisana jest po polsku, część po angielsku
 - brak możliwości przewinięcia tabeli na sam koniec lub sam początek
 - brak możliwości uporządkowania graczy (rosnąco, malejąco) według wieku, recenzji, meczy lub raportów oraz brak ułożenia alfabetycznego (imię, nazwisko)
 - brak możliwości dodania gracza z tego miejsca
-*ZAKŁADKA DODAJ GRACZA*
-- z poziomu DODAJ GRACZA brak listy przy polu POZIOM ROZGRYWEK, GŁÓWNA POZYCJA, POZYCJA ALTERNATYWNA do wyboru poziomu zaawansowania przez co cała tabela jest mniej spójna
-- co oznacza pole ŁĄCZY NAS PIŁKA ORAZ 90 MINUT
-*ZAKŁADKA MECZE*
+
+**ZAKŁADKA DODAJ GRACZA**
+- z poziomu *DODAJ GRACZA* brak listy przy polu *POZIOM ROZGRYWEK, GŁÓWNA POZYCJA, POZYCJA ALTERNATYWNA* do wyboru poziomu zaawansowania przez co cała tabela jest mniej spójna
+- co oznacza pole *ŁĄCZY NAS PIŁKA ORAZ 90 MINUT*
+
+**ZAKŁADKA MECZE**
 - można dodać mecz z ilością zdobytych bramek, który dopiero się odbędzie w przyszłości
-*ZAKŁADKA DODAJ RAPORT*
-- brak możliwości dodania raportu z pozycji DODAJ RAPORT, cofa do zakładki MECZE 
+
+**ZAKŁADKA DODAJ RAPORT**
+- brak możliwości dodania raportu z pozycji *DODAJ RAPORT*, cofa do zakładki *MECZE* 
 - przy dodawaniu raportu żadna z list punktowych lub numerycznych nie numeruje automatycznie po naciśnięciu enter
 - pogrubienie oraz podkreślenie tekstu nie działa wyłącza się po próbie dodania tekstu
 -brak paska bocznego do przesuwania w górę i dół 
+
