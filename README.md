@@ -42,3 +42,10 @@ Strona jest średnio intuicyjna, nie wszystkie pola do wypełnienia są zrozumia
 - pogrubienie oraz podkreślenie tekstu nie działa wyłącza się po próbie dodania tekstu
 -brak paska bocznego do przesuwania w górę i dół 
 
+# Task 2
+## Subtask 2
+[**Zapraszam do obejrzenia moich Test Case na podstawie User Story**](https://docs.google.com/document/d/145BCbJmNvsBQwyAk2-DyKNk6xYN0Kx-LVsqLFNldfE0/edit?usp=share_link)
+
+## Subtask 3
+[**Zapraszam do obejrzenia moich Test Case na podstawie User Story mojej wyobraźni** :upside_down_face:](https://docs.google.com/document/d/1HaRPLeS1NCLNkClMsWqlzjkFCffxWHZGUW2SC_HApSU/edit?usp=share_link)
+
