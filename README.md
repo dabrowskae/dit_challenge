@@ -55,3 +55,4 @@ Strona jest średnio intuicyjna, nie wszystkie pola do wypełnienia są zrozumia
 Myślę, że każdy przypadek testowy jest pewnym usystematyzowaniem pracy. Ja bardzo lubię w pracy mieć wszystko poukładane (czasem wprost przeciwnie do porządku w domu :upside_down_face:). Dobrze stworzony przypadek testowy pozwala określić priorytety. Jeżeli, któryś z test case'ów posiada *Priority Status* - **HIGH** wiadomo, że trzeba go zrobić w pierwszej kolejności, przed przypadkiem, którego priorytet to **LOW** (tak myślę, że tak to działa :information_desk_person:). Są w nim zawarte w skrócie najważniejsze założenia klienta, jeżeli coś nas oderwie od pracy, nie trzeba ponownie wczytywać się w User Story aby znaleźć co mamy kodować, wystarczy spojrzeć na tablekę i wszystko jasne :bowtie:. 
 
 ## Subtask 4
+[**Pick Eat Up App on iOS**](https://docs.google.com/document/d/1n_EBd8jx52NtL1Yx2f7tCsnCzy8ArpHks68KQIhGtmA/edit?usp=share_link)
