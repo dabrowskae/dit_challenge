@@ -43,9 +43,15 @@ Strona jest średnio intuicyjna, nie wszystkie pola do wypełnienia są zrozumia
 -brak paska bocznego do przesuwania w górę i dół 
 
 # Task 2
-## Subtask 2
+## Subtask 1
 [**Zapraszam do obejrzenia moich Test Case na podstawie User Story**](https://docs.google.com/document/d/145BCbJmNvsBQwyAk2-DyKNk6xYN0Kx-LVsqLFNldfE0/edit?usp=share_link)
 
-## Subtask 3
+## Subtask 2
 [**Zapraszam do obejrzenia moich Test Case na podstawie User Story mojej wyobraźni** :upside_down_face:](https://docs.google.com/document/d/1HaRPLeS1NCLNkClMsWqlzjkFCffxWHZGUW2SC_HApSU/edit?usp=share_link)
 
+## Subtask 3
+*Dlaczego piszemy przypadki testowe? [**Na co to komu potrzebne?**](https://www.youtube.com/watch?v=OO3FANjwKHY&t=1s)*
+
+Myślę, że każdy przypadek testowy jest pewnym usystematyzowaniem pracy. Ja bardzo lubię w pracy mieć wszystko poukładane (czasem wprost przeciwnie do porządku w domu :upside_down_face:). Dobrze stworzony przypadek testowy pozwala określić priorytety. Jeżeli, któryś z test case'ów posiada *Priority Status* - **HIGH** wiadomo, że trzeba go zrobić w pierwszej kolejności, przed przypadkiem, którego priorytet to **LOW** (tak myślę, że tak to działa :information_desk_person:). Są w nim zawarte w skrócie najważniejsze założenia klienta, jeżeli coś nas oderwie od pracy, nie trzeba ponownie wczytywać się w User Story aby znaleźć co mamy kodować, wystarczy spojrzeć na tablekę i wszystko jasne :bowtie:. 
+
+## Subtask 4
