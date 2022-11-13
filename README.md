@@ -56,3 +56,12 @@ Myślę, że każdy przypadek testowy jest pewnym usystematyzowaniem pracy. Ja b
 
 ## Subtask 4
 [**Pick Eat Up App on iOS**](https://docs.google.com/document/d/1n_EBd8jx52NtL1Yx2f7tCsnCzy8ArpHks68KQIhGtmA/edit?usp=share_link)
+
+# Task 3
+## Subtask 1
+:bug: :point_right: [**Utworzenie formatki do zgłaszania błędów systemu- zgłoszone BUGI**](https://docs.google.com/document/d/1pJT0guVETYbu1QHkUSYyt0NqM4mVs0i4saPmrglkwwE/edit?usp=share_link)
+
+## Subtask 2
+:computer: :point_right: [**Testowanie według planów testów i raportowanie błędów**](https://docs.google.com/document/d/1BmVfNNmYYRR9f2B--5MBj5CcukGR8RzrFOlI1cnxETQ/edit?usp=share_link)
+
+## Subtask 3
