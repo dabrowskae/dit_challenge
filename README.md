@@ -65,3 +65,4 @@ Myślę, że każdy przypadek testowy jest pewnym usystematyzowaniem pracy. Ja b
 :computer: :point_right: [**Testowanie według planów testów i raportowanie błędów**](https://docs.google.com/document/d/1BmVfNNmYYRR9f2B--5MBj5CcukGR8RzrFOlI1cnxETQ/edit?usp=share_link)
 
 ## Subtask 3
+:chart_with_upwards_trend: :point_right: [**Raport z wykonanych testów**](https://docs.google.com/document/d/1WkmdhM8ds-kUNNt5_yjyYXlrUlNe7k04ilfPjoTmHMA/edit?usp=share_link)
