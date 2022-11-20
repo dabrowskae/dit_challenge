@@ -84,3 +84,6 @@ Widzę jednak wady, przede wszystkim:
 - przy zakładce Oddychaj nie ma do wyboru opcji haptyki, uważam, że warto by było dodać opcje haptyki przy ćwiczeniach oddechowych aby można je było wykonywać z zamkniętymi oczami dla większego relaksu lub przez osoby niewidome, 
  
 Jakie różnice zauważyłam przy testowaniu aplikacji natywnej a internetowej? Przede wszystkim brak konieczności dostępu do internetu przy użytkowaniu aplikacji natywnej. Aplikacja, którą pobraliśmy w porównaniu ze stroną internetową z Task 3 jest dużo bardziej dopracowana wizualnie oraz systemowo. Aplikacje natywne są bardzo intuicyjne, przyciski których używamy najczęściej znajdują się tuż nad dołem ekranu, nie trzeba ich szukać tak jak w przypadku aplikacji internetowej. 
+
+## Subtask 4
+[Jira board :clipboard:](https://dabrowskaewa.atlassian.net/jira/software/projects/DIC/boards/1) (W czasie jaki sobie wyznaczyłam na to zadanie uadło mi się znaleźć tylko tyle bug'ów :bug:, to nie tak, że ja nie lubię pracować w grupie i dlatego robię te zadania sama, ja jestem na początku mojej ścieżki IT i bardzo bym nie chciała aby przez moje źle wykonane zadanie oberwała grupa :see_no_evil:)
