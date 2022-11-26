@@ -1,4 +1,4 @@
-# Task 1 ZAPOZNANIE Z PRACĄ QA :wrench:
+# Task 1 *ZAPOZNANIE Z PRACĄ QA* :wrench:
 ## Subtask 1
 **5** punktów ( *szklanka do połowy pełna :grinning:* )
 ### Subtask 3
@@ -44,7 +44,7 @@ Strona jest średnio intuicyjna, nie wszystkie pola do wypełnienia są zrozumia
 
 ----------------
 
-# Task 2 TWORZENIE TEST CASE  :clipboard:
+# Task 2 *TWORZENIE TEST CASE* :clipboard:
 ## Subtask 1
 [**Zapraszam do obejrzenia moich Test Case na podstawie User Story**](https://docs.google.com/document/d/145BCbJmNvsBQwyAk2-DyKNk6xYN0Kx-LVsqLFNldfE0/edit?usp=share_link)
 
@@ -61,7 +61,7 @@ Myślę, że każdy przypadek testowy jest pewnym usystematyzowaniem pracy. Ja b
 
 ----------------
 
-# Task 3 TESTOWANIE I RAPORTOWANIE :floppy_disk:
+# Task 3 *TESTOWANIE I RAPORTOWANIE* :floppy_disk:
 ## Subtask 1
 :bug: :point_right: [**Utworzenie formatki do zgłaszania błędów systemu- zgłoszone BUGI**](https://docs.google.com/document/d/1pJT0guVETYbu1QHkUSYyt0NqM4mVs0i4saPmrglkwwE/edit?usp=share_link)
 
@@ -73,7 +73,7 @@ Myślę, że każdy przypadek testowy jest pewnym usystematyzowaniem pracy. Ja b
 
 ----------------
 
-# Task 4 RAPORTOWANIE BŁĘDÓW :crossed_flags:
+# Task 4 *RAPORTOWANIE BŁĘDÓW* :crossed_flags:
 ## Subtask 2
 :bug: :point_right: [**Raportowanie błędów znalezionych w trakcie godzinnego testowania :clock1:**](https://docs.google.com/document/d/190YCjngHsuw9TDGYNF61A6Q6-lLePe-97lDVzRGLPVU/edit?usp=share_link)
 
@@ -96,7 +96,7 @@ Jakie różnice zauważyłam przy testowaniu aplikacji natywnej a internetowej? 
 
 ----------------
 
-# Task 5  SQL  :thought_balloon:
+# Task 5  *SQL*  :thought_balloon:
 ## Subtask 1
 SQL *Structured Query Language* STRUKTURALNY JĘZYK ZAPYTAŃ :flashlight: 
 
@@ -120,6 +120,6 @@ SQL *Structured Query Language* STRUKTURALNY JĘZYK ZAPYTAŃ :flashlight:
 - **AND lub OR**: operatory służące do przeszukiwania więcej niż 1 frazy, AND możemy użyć do znalezienia 2 lub więcej kolumn które będa spełniały żądanie, OR możemy użyć do szukania kilku opcji; 
 - **IS NUL lub IS NOT NULL**: IS NULL kolumny, które nie zostały wypełnione, IS NOT NULL kolumny które zostały wypełnione
 - **( )**: nawias pozwala pogrupować nasze zapytanie na dwa lub więcej warunki;
-- - **JOIN**: wskazuje z którą tabelą, tabela powinna zostać połączona
+- **JOIN**: wskazuje z którą tabelą, tabela powinna zostać połączona.
 
 
