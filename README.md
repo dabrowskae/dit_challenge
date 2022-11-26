@@ -1,4 +1,4 @@
-# Task 1
+# Task 1 ZAPOZNANIE Z PRACĄ QA :wrench:
 ## Subtask 1
 **5** punktów ( *szklanka do połowy pełna :grinning:* )
 ### Subtask 3
@@ -42,7 +42,9 @@ Strona jest średnio intuicyjna, nie wszystkie pola do wypełnienia są zrozumia
 - pogrubienie oraz podkreślenie tekstu nie działa wyłącza się po próbie dodania tekstu
 -brak paska bocznego do przesuwania w górę i dół 
 
-# Task 2
+----------------
+
+# Task 2 TWORZENIE TEST CASE  :clipboard:
 ## Subtask 1
 [**Zapraszam do obejrzenia moich Test Case na podstawie User Story**](https://docs.google.com/document/d/145BCbJmNvsBQwyAk2-DyKNk6xYN0Kx-LVsqLFNldfE0/edit?usp=share_link)
 
@@ -57,7 +59,9 @@ Myślę, że każdy przypadek testowy jest pewnym usystematyzowaniem pracy. Ja b
 ## Subtask 4
 [**Pick Eat Up App on iOS**](https://docs.google.com/document/d/1n_EBd8jx52NtL1Yx2f7tCsnCzy8ArpHks68KQIhGtmA/edit?usp=share_link)
 
-# Task 3
+----------------
+
+# Task 3 TESTOWANIE I RAPORTOWANIE :floppy_disk:
 ## Subtask 1
 :bug: :point_right: [**Utworzenie formatki do zgłaszania błędów systemu- zgłoszone BUGI**](https://docs.google.com/document/d/1pJT0guVETYbu1QHkUSYyt0NqM4mVs0i4saPmrglkwwE/edit?usp=share_link)
 
@@ -67,7 +71,9 @@ Myślę, że każdy przypadek testowy jest pewnym usystematyzowaniem pracy. Ja b
 ## Subtask 3
 :chart_with_upwards_trend: :point_right: [**Raport z wykonanych testów**](https://docs.google.com/document/d/1WkmdhM8ds-kUNNt5_yjyYXlrUlNe7k04ilfPjoTmHMA/edit?usp=share_link)
 
-# Task 4
+----------------
+
+# Task 4 RAPORTOWANIE BŁĘDÓW :crossed_flags:
 ## Subtask 2
 :bug: :point_right: [**Raportowanie błędów znalezionych w trakcie godzinnego testowania :clock1:**](https://docs.google.com/document/d/190YCjngHsuw9TDGYNF61A6Q6-lLePe-97lDVzRGLPVU/edit?usp=share_link)
 
@@ -87,3 +93,31 @@ Jakie różnice zauważyłam przy testowaniu aplikacji natywnej a internetowej? 
 
 ## Subtask 4
 [Jira board :clipboard:](https://dabrowskaewa.atlassian.net/jira/software/projects/DIC/boards/1) (W czasie jaki sobie wyznaczyłam na to zadanie uadło mi się znaleźć tylko tyle bug'ów :bug:, to nie tak, że ja nie lubię pracować w grupie i dlatego robię te zadania sama, ja jestem na początku mojej ścieżki IT i bardzo bym nie chciała aby przez moje źle wykonane zadanie oberwała grupa :see_no_evil:)
+
+----------------
+
+# Task 5  SQL  :thought_balloon:
+## Subtask 1
+SQL *Structured Query Language* STRUKTURALNY JĘZYK ZAPYTAŃ :flashlight: 
+
+:interrobang: ***ZAPYTANIA***:
+- **SELECT * FROM**: wyświetl zawartość (gwiazdka oznacza wszytskie kolumny, jeśli chcemy wyświetlić jedną, konkretną należy w miejsce gwiazku wpisać jej nazwę);
+- **GO**: rozdziela dany skrypt na kilka mniejszych w miejscach, w których chcemy go rozdzielić na końcu wpisujemy GO;
+- **SELECT AS**: pokazuje wybrane kolumny, przy wpisaniu *AS* możemy zmienić do odczytu ich nazwę np z j. angielskiego na j. polski;
+- **USE nazwa bazy danych GO**: przełącza do wybranej bazy danych;
+- **CREATE TABLE nazwa tabeli (id int)**: utworzenie nowej tabeli;
+- **ORDER BY nazwa kolumny** lub **ORDER BY nazwa kolumny ASC**: sortuje rosnąco;
+- **ORDER BY nazwa kolumny DESC**: sortuje malejąco;
+- **WHERE**: podajemy kolumnę, w której chcemy szukać danych
+
+:speech_balloon: ***OPERATORY***:
+- **BETWEEN AND**: operator do wybrania zakresu konkretnego zbioru pomiędzy liczbami;
+- **>, <**: operator do wybrania zbioru większego lub mniejszego niż (liczba);
+- **=**: operator do wybrania zakresu równego (liczba);
+- **<> lub !=**: różny niż;
+- **LIKE**: przeszukanie danych zgodnych z podaną dalej szukaną;
+- **AND lub OR**: operatory służące do przeszukiwania więcej niż 1 frazy, AND możemy użyć do znalezienia 2 lub więcej kolumn które będa spełniały żądanie, OR możemy użyć do szukania kilku opcji; 
+- **IS NUL lub IS NOT NULL**: IS NULL kolumny, które nie zostały wypełnione, IS NOT NULL kolumny które zostały wypełnione
+- **( )**: nawias pozwala pogrupować nasze zapytanie na dwa lub więcej warunki;
+
+
