@@ -109,6 +109,7 @@ SQL *Structured Query Language* STRUKTURALNY JĘZYK ZAPYTAŃ :flashlight:
 - **ORDER BY nazwa kolumny** lub **ORDER BY nazwa kolumny ASC**: sortuje rosnąco;
 - **ORDER BY nazwa kolumny DESC**: sortuje malejąco;
 - **WHERE**: podajemy kolumnę, w której chcemy szukać danych
+- - **GROUP BY**: grupowanie na poszczególne wartości znajdujące się w kolumnie;
 
 :speech_balloon: ***OPERATORY***:
 - **BETWEEN AND**: operator do wybrania zakresu konkretnego zbioru pomiędzy liczbami;
@@ -119,5 +120,6 @@ SQL *Structured Query Language* STRUKTURALNY JĘZYK ZAPYTAŃ :flashlight:
 - **AND lub OR**: operatory służące do przeszukiwania więcej niż 1 frazy, AND możemy użyć do znalezienia 2 lub więcej kolumn które będa spełniały żądanie, OR możemy użyć do szukania kilku opcji; 
 - **IS NUL lub IS NOT NULL**: IS NULL kolumny, które nie zostały wypełnione, IS NOT NULL kolumny które zostały wypełnione
 - **( )**: nawias pozwala pogrupować nasze zapytanie na dwa lub więcej warunki;
+- - **JOIN**: wskazuje z którą tabelą, tabela powinna zostać połączona
 
 
