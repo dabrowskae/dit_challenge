@@ -109,7 +109,7 @@ SQL *Structured Query Language* STRUKTURALNY JĘZYK ZAPYTAŃ :flashlight:
 - **ORDER BY nazwa kolumny** lub **ORDER BY nazwa kolumny ASC**: sortuje rosnąco;
 - **ORDER BY nazwa kolumny DESC**: sortuje malejąco;
 - **WHERE**: podajemy kolumnę, w której chcemy szukać danych
-- - **GROUP BY**: grupowanie na poszczególne wartości znajdujące się w kolumnie;
+- **GROUP BY**: grupowanie na poszczególne wartości znajdujące się w kolumnie;
 
 :speech_balloon: ***OPERATORY***:
 - **BETWEEN AND**: operator do wybrania zakresu konkretnego zbioru pomiędzy liczbami;
