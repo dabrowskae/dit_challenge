@@ -172,4 +172,23 @@ WHERE customer_id IN (1, 3, 5)*
 
 [![7-cust.jpg](https://i.postimg.cc/MKbdNxh7/7-cust.jpg)](https://postimg.cc/7fh3TvPh)
 
+**8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**
 
+*SELECT * FROM actors
+WHERE name LIKE 'An%'*
+
+[![8-name.jpg](https://i.postimg.cc/FRTJ3WqJ/8-name.jpg)](https://postimg.cc/dkT1KBJq)
+
+**9. Wyświetl dane klienta, który nie ma podanego adresu email.**
+
+*SELECT * FROM customers
+WHERE email IS NULL*
+
+[![9-null.jpg](https://i.postimg.cc/MGTcxbX6/9-null.jpg)](https://postimg.cc/BjrZBFxk)
+
+**10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
+
+*SELECT * FROM movies
+WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)*
+
+[![10-id.jpg](https://i.postimg.cc/50rLDK3W/10-id.jpg)](https://postimg.cc/gXvxZDQg)
