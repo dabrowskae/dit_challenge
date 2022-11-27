@@ -144,7 +144,7 @@ WHERE year_of_production BETWEEN 1900 AND 1999*
 
 [![3-btween.jpg](https://i.postimg.cc/BvsjLBjf/3-btween.jpg)](https://postimg.cc/TK7dBmjt)
 
-**4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$ **
+**4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.**
 
 *SELECT title, price FROM movies
 WHERE price < 7*
