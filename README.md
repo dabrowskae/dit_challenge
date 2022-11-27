@@ -124,7 +124,52 @@ SQL *Structured Query Language* STRUKTURALNY JĘZYK ZAPYTAŃ :flashlight:
 
 ## Subtask 3
 **1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
+
 *SELECT * FROM actors
 ORDER BY surname ASC*
+
+[![1-surname.jpg](https://i.postimg.cc/CKvQBJcR/1-surname.jpg)](https://postimg.cc/VSCR29Qw)
+
+**2. Wyświetl film, który powstał w 2019 roku.**
+
+*SELECT * FROM movies
+WHERE year_of_production = 2019*
+
+[![2-movie.jpg](https://i.postimg.cc/jjgRxHNX/2-movie.jpg)](https://postimg.cc/gwZC46gX)
+
+**3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**
+
+*SELECT * FROM movies
+WHERE year_of_production BETWEEN 1900 AND 1999*
+
+[![3-btween.jpg](https://i.postimg.cc/BvsjLBjf/3-btween.jpg)](https://postimg.cc/TK7dBmjt)
+
+**4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$ **
+
+*SELECT title, price FROM movies
+WHERE price < 7*
+
+[![4-price.jpg](https://i.postimg.cc/GhFQZqwZ/4-price.jpg)](https://postimg.cc/4m3Vcv35)
+
+**5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.**
+
+*SELECT * FROM actors
+WHERE actor_id >= 4 AND actor_id <= 7*
+
+[![5-actor-id.jpg](https://i.postimg.cc/fRwr5kgn/5-actor-id.jpg)](https://postimg.cc/WhH81pvX)
+
+**6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
+
+*SELECT * FROM customers
+WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6*
+
+[![6-customer.jpg](https://i.postimg.cc/MGcHMZwV/6-customer.jpg)](https://postimg.cc/B804R0Xn)
+
+**7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
+
+*SELECT * FROM customers
+WHERE customer_id IN (1, 3, 5)*
+
+[![7-cust.jpg](https://i.postimg.cc/MKbdNxh7/7-cust.jpg)](https://postimg.cc/7fh3TvPh)
 
 
