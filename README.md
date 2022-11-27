@@ -122,4 +122,9 @@ SQL *Structured Query Language* STRUKTURALNY JĘZYK ZAPYTAŃ :flashlight:
 - **( )**: nawias pozwala pogrupować nasze zapytanie na dwa lub więcej warunki;
 - **JOIN**: wskazuje z którą tabelą, tabela powinna zostać połączona.
 
+## Subtask 3
+**1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
+*SELECT * FROM actors
+ORDER BY surname ASC*
+
 
