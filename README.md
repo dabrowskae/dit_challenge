@@ -192,3 +192,17 @@ WHERE email IS NULL*
 WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)*
 
 [![10-id.jpg](https://i.postimg.cc/50rLDK3W/10-id.jpg)](https://postimg.cc/gXvxZDQg)
+
+# Task 6
+
+## Subtask 1
+
+**11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈**
+
+*UPDATE customers SET surname='Miler' WHERE customer_id='3'*
+
+[![1.jpg](https://i.postimg.cc/J7sMf6xR/1.jpg)](https://postimg.cc/8sg2WbxY)
+
+**12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**
+
+
