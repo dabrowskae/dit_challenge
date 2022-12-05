@@ -101,7 +101,7 @@ Jakie różnice zauważyłam przy testowaniu aplikacji natywnej a internetowej? 
 SQL *Structured Query Language* STRUKTURALNY JĘZYK ZAPYTAŃ :flashlight: 
 
 :interrobang: ***ZAPYTANIA***:
-- **SELECT * FROM**: wyświetl zawartość (gwiazdka oznacza wszytskie kolumny, jeśli chcemy wyświetlić jedną, konkretną należy w miejsce gwiazku wpisać jej nazwę);
+- **SELECT * FROM**: wyświetl zawartość (gwiazdka oznacza wszytskie kolumny, jeśli chcemy wyświetlić jedną, konkretną należy w miejsce gwiazki wpisać jej nazwę);
 - **GO**: rozdziela dany skrypt na kilka mniejszych w miejscach, w których chcemy go rozdzielić na końcu wpisujemy GO;
 - **SELECT AS**: pokazuje wybrane kolumny, przy wpisaniu *AS* możemy zmienić do odczytu ich nazwę np z j. angielskiego na j. polski;
 - **USE nazwa bazy danych GO**: przełącza do wybranej bazy danych;
@@ -204,5 +204,22 @@ WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)*
 [![1.jpg](https://i.postimg.cc/J7sMf6xR/1.jpg)](https://postimg.cc/8sg2WbxY)
 
 **12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**
+
+**13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
+
+*UPDATE customers SET email='pati@mail.com' WHERE surname='Komor'*
+
+[![3.jpg](https://i.postimg.cc/vZqvWBJn/3.jpg)](https://postimg.cc/LJPfSH64)
+
+**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
+
+**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**
+
+**16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
+
+## Subtask 2
+
+11/15 :alien:
+
 
 
