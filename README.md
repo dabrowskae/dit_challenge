@@ -217,6 +217,23 @@ WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)*
 
 **16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
 
+*SELECT DISTINCT title FROM movies INNER JOIN sale*
+
+[![16.jpg](https://i.postimg.cc/pr3GG9np/16.jpg)](https://postimg.cc/zHSF3G7r)
+
+**17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)**
+
+*SELECT Name, surname FROM actors
+UNION
+SELECT Name, surname FROM customers
+ORDER BY surname ASC*
+
+[![17.jpg](https://i.postimg.cc/vmL5C4Cc/17.jpg)](https://postimg.cc/PLJLw5Xj)
+
+**18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**
+
+
+
 ## Subtask 2
 
 11/15 :alien:
