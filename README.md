@@ -186,67 +186,6 @@ WHERE email IS NULL*
 
 [![9-null.jpg](https://i.postimg.cc/MGTcxbX6/9-null.jpg)](https://postimg.cc/BjrZBFxk)
 
-**10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
-
-[![5-actor-id.jpg](https://i.postimg.cc/fRwr5kgn/5-actor-id.jpg)](https://postimg.cc/WhH81pvX)
-
-
-
-**6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
-
-
-
-*SELECT * FROM customers
-
-WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6*
-
-
-
-[![6-customer.jpg](https://i.postimg.cc/MGcHMZwV/6-customer.jpg)](https://postimg.cc/B804R0Xn)
-
-
-
-**7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
-
-
-
-*SELECT * FROM customers
-
-WHERE customer_id IN (1, 3, 5)*
-
-
-
-[![7-cust.jpg](https://i.postimg.cc/MKbdNxh7/7-cust.jpg)](https://postimg.cc/7fh3TvPh)
-
-
-
-**8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**
-
-
-
-*SELECT * FROM actors
-
-WHERE name LIKE 'An%'*
-
-
-
-[![8-name.jpg](https://i.postimg.cc/FRTJ3WqJ/8-name.jpg)](https://postimg.cc/dkT1KBJq)
-
-
-
-**9. Wyświetl dane klienta, który nie ma podanego adresu email.**
-
-
-
-*SELECT * FROM customers
-
-WHERE email IS NULL*
-
-
-
-[![9-null.jpg](https://i.postimg.cc/MGTcxbX6/9-null.jpg)](https://postimg.cc/BjrZBFxk)
-
-
 
 **10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
 
