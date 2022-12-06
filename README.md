@@ -333,7 +333,6 @@ WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)*
 
 [![1.jpg](https://i.postimg.cc/J7sMf6xR/1.jpg)](https://postimg.cc/8sg2WbxY)
 
-**12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**
 
 **13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
 
@@ -343,7 +342,6 @@ WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)*
 
 **14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
 
-**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**
 
 **16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
 
@@ -365,7 +363,6 @@ ORDER BY surname ASC*
 *UPDATE movies SET price = price + '2,5' where year_of_production >= '2000'*
 
 [![18.jpg](https://i.postimg.cc/RVP36jnp/18.jpg)](https://postimg.cc/xczjBp5L)
-
 
 
 ## Subtask 2
