@@ -221,5 +221,7 @@ WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)*
 
 11/15 :alien:
 
+## Subtask 3
+[***MOJE PORTFOLIO***](https://github.com/dabrowskae/PORTFOLIO_ED)
 
 
