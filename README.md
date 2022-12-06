@@ -188,6 +188,136 @@ WHERE email IS NULL*
 
 **10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
 
+[![5-actor-id.jpg](https://i.postimg.cc/fRwr5kgn/5-actor-id.jpg)](https://postimg.cc/WhH81pvX)
+
+
+
+**6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
+
+
+
+*SELECT * FROM customers
+
+WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6*
+
+
+
+[![6-customer.jpg](https://i.postimg.cc/MGcHMZwV/6-customer.jpg)](https://postimg.cc/B804R0Xn)
+
+
+
+**7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
+
+
+
+*SELECT * FROM customers
+
+WHERE customer_id IN (1, 3, 5)*
+
+
+
+[![7-cust.jpg](https://i.postimg.cc/MKbdNxh7/7-cust.jpg)](https://postimg.cc/7fh3TvPh)
+
+
+
+**8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**
+
+
+
+*SELECT * FROM actors
+
+WHERE name LIKE 'An%'*
+
+
+
+[![8-name.jpg](https://i.postimg.cc/FRTJ3WqJ/8-name.jpg)](https://postimg.cc/dkT1KBJq)
+
+
+
+**9. Wyświetl dane klienta, który nie ma podanego adresu email.**
+
+
+
+*SELECT * FROM customers
+
+WHERE email IS NULL*
+
+
+
+[![9-null.jpg](https://i.postimg.cc/MGTcxbX6/9-null.jpg)](https://postimg.cc/BjrZBFxk)
+
+
+
+**10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
+
+
+
+*SELECT * FROM movies
+
+WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)*
+
+
+
+[![10-id.jpg](https://i.postimg.cc/50rLDK3W/10-id.jpg)](https://postimg.cc/gXvxZDQg)
+
+
+
+# Task 6
+
+
+
+## Subtask 1
+
+
+
+**11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈**
+
+
+
+*UPDATE customers SET surname='Miler' WHERE customer_id='3'*
+
+
+
+[![1.jpg](https://i.postimg.cc/J7sMf6xR/1.jpg)](https://postimg.cc/8sg2WbxY)
+
+
+
+**12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**
+
+
+
+**13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
+
+
+
+*UPDATE customers SET email='pati@mail.com' WHERE surname='Komor'*
+
+
+
+[![3.jpg](https://i.postimg.cc/vZqvWBJn/3.jpg)](https://postimg.cc/LJPfSH64)
+
+
+
+**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
+
+
+
+**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**
+
+
+
+**16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
+
+
+
+*SELECT DISTINCT title FROM movies INNER JOIN sale*
+
+
+
+[![16.jpg](https://i.postimg.cc/pr3GG9np/16.jpg)](https://postimg.cc/zHSF3G7r)
+
+
+
 *SELECT * FROM movies
 WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)*
 
@@ -231,6 +361,10 @@ ORDER BY surname ASC*
 [![17.jpg](https://i.postimg.cc/vmL5C4Cc/17.jpg)](https://postimg.cc/PLJLw5Xj)
 
 **18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**
+
+*UPDATE movies SET price = price + '2,5' where year_of_production >= '2000'*
+
+[![18.jpg](https://i.postimg.cc/RVP36jnp/18.jpg)](https://postimg.cc/xczjBp5L)
 
 
 
