@@ -340,8 +340,6 @@ WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)*
 
 [![3.jpg](https://i.postimg.cc/vZqvWBJn/3.jpg)](https://postimg.cc/LJPfSH64)
 
-**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
-
 
 **16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
 
